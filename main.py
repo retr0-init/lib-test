@@ -33,12 +33,4 @@ from interactions import Task, IntervalTrigger
 Replace the ModuleName with any name you'd like
 '''
 class ModuleName(interactions.Extension):
-    module_base: interactions.SlashCommand = interactions.SlashCommand(
-        name="replace_your_command_base_here",
-        description="Replace here for the base command descriptions"
-    )
-    module_group: interactions.SlashCommand = module_base.group(
-        name="replace_your_command_group_here",
-        description="Replace here for the group command descriptions"
-    )
-
+    pass
